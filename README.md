@@ -24,6 +24,10 @@ cp /tmp/review-loop/BAR.md .
 
 This installs it in **this project only** (`.claude/` in the project), not globally, so it doesn't load into projects that don't need it. Commit it with the project and your team gets it too.
 
+## Where to use it
+
+Anywhere "done" can be checked. `USE-CASES.md` walks through 15 situations, from a landing page and a bug fix to a client email, a spreadsheet, a chatbot's answers and a team how-to.
+
 ## Use it
 
 1. Fill in `BAR.md`: what the result is for, and the checks that decide it. Examples for a landing page, a client email and a code change are in `examples/`.
@@ -38,6 +42,7 @@ This installs it in **this project only** (`.claude/` in the project), not globa
 | `.claude/agents/reviewer.md` | An independent reviewer that never saw how the work was made |
 | `BAR.md` | The template for your bar |
 | `examples/` | Ready bars for a landing page, a client email and a code change |
+| `USE-CASES.md` | 15 situations where the loop helps (code, pages, emails, data, agents, slides, translations…), each with its bar, how to look and what it usually catches |
 
 ## Why a separate reviewer
 
