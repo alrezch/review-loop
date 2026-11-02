@@ -24,6 +24,10 @@ cp /tmp/review-loop/BAR.md .
 
 This installs it in **this project only** (`.claude/` in the project), not globally, so it doesn't load into projects that don't need it. Commit it with the project and your team gets it too.
 
+## Five loops to copy
+
+`LOOPS.md` has five ready-made loops, three that run until a goal is met (`/goal`) and two that run every morning (`/schedule`): a fast homepage, text AI crawlers can read, a video with nothing in the cropped area, a contact form that's checked daily, and ad numbers compared with real orders.
+
 ## Where to use it
 
 Anywhere "done" can be checked. `USE-CASES.md` walks through 15 situations, from a landing page and a bug fix to a client email, a spreadsheet, a chatbot's answers and a team how-to.
@@ -42,6 +46,7 @@ Anywhere "done" can be checked. `USE-CASES.md` walks through 15 situations, from
 | `.claude/agents/reviewer.md` | An independent reviewer that never saw how the work was made |
 | `BAR.md` | The template for your bar |
 | `examples/` | Ready bars for a landing page, a client email and a code change |
+| `LOOPS.md` | Five copy-ready goal and time loops, each with what it checks and when it stops |
 | `USE-CASES.md` | 15 situations where the loop helps (code, pages, emails, data, agents, slides, translations…), each with its bar, how to look and what it usually catches |
 
 ## Why a separate reviewer
